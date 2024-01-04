@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>FMG.LocalStorage</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="FMG.Security">
+      <HintPath>..\..\..\Quest Of Immortality_ V 0.11.13.B_12.31\Quest of Immortality_Data\Managed\FMG.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Quest Of Immortality_ V 0.11.13.B_12.31\Quest of Immortality_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\Quest Of Immortality_ V 0.11.13.B_12.31\Quest of Immortality_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="FMG.Utilities">
+      <HintPath>..\..\..\Quest Of Immortality_ V 0.11.13.B_12.31\Quest of Immortality_Data\Managed\FMG.Utilities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
